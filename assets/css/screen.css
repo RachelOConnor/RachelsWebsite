@@ -1,0 +1,229 @@
+
+.comfortaa-font 
+{
+    font-family: "Comfortaa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body 
+{
+    font-family: "Comfortaa", serif;
+    background-color: #ffefe6;
+}
+
+.darkMode
+{
+    background-color: #000;
+
+    .sidenav
+    {
+        background-color: #000;
+        color: white;
+        border-right: 1px solid #bebebe;
+    }
+
+    .links a 
+    {
+        color: white;
+    }
+
+    .links a:hover 
+    {
+        border: 1px solid #bebebe;
+        box-shadow: 5px 5px  #bebebe;
+        background-color: rgb(192, 108, 192);
+    }
+
+    .links a:active
+    {
+        background-color: rgb(146, 66, 146);
+        box-shadow: 2px 2px #bebebe;
+    }
+
+    .divider
+    {
+        border-top: 1px solid #bebebe;
+    }
+
+    .section 
+    {
+        border: 2px solid #bebebe;
+        box-shadow: 5px 5px  #bebebe;
+    }
+
+    .footer
+    {
+        color: white;
+    }
+
+    #moon
+    {
+        content:url("../img/sun.png")
+    }
+
+    #discord
+    {
+        content:url("../img/whiteDiscord.png")
+    }
+
+    #email
+    {
+        content:url("../img/whiteEmail.png")
+    }
+
+    #linkedin
+    {
+        content:url("../img/whiteLinkedin.png")
+    }
+
+    #github
+    {
+        content:url("../img/whiteGithub.png")
+    }
+
+    #heart
+    {
+        content:url("../img/whiteHeart.png");
+    }
+
+}
+
+.sidenav 
+{
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffefe6;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 1px solid black;
+
+    text-align: center;
+}
+
+.links
+{
+    margin-top: 70%;
+}
+
+
+.links a
+{
+    /* top right bottom left*/
+    margin: 15% 0px 30px 0px;
+    padding: 9px 0px 9px 0px;
+    text-decoration: none;
+    font-size: 25px;
+
+    color: black;
+
+    display: block;
+}
+
+#discord
+{
+    content:url("../img/blackDiscord.png")
+}
+
+#email
+{
+    content:url("../img/blackEmail.png")
+}
+
+#linkedin
+{
+    content:url("../img/blackLinkedin.png")
+}
+
+#github
+{
+    content:url("../img/blackGithub.png")
+}
+
+.links a:hover 
+{
+    background-color: plum;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* top right bottom left*/
+    padding: 8px 0px 8px 0px;
+
+    box-shadow: 5px 5px  #000000;
+}
+
+.links a:active
+{
+    background-color: rgb(192, 108, 192);
+    box-shadow: 2px 2px #000;
+    transform: translateY(3px);
+}
+
+.modeButton
+{
+    padding-top: 15%;
+}
+
+.sidefooter
+{
+    margin-top: 50%;
+}
+
+.sidefooter a
+{
+
+    padding: 3%;
+}
+
+.section 
+{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px  #000000;
+    font-size: 1.4em;
+
+    /* top right bottom left*/
+    padding: 0px 30px 10px 30px;
+    margin: 50px 50px 50px 450px;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.divider
+{
+    border-top: 1px solid black;
+}
+
+.footer
+{
+    padding-top: 20px;
+    margin-left:450px;
+    display: flex;
+}
+
+#heart
+{
+    height: 32px;
+    width: 32px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* ! ********************************************** MOBILE ONLY ************************************************** */
+
+@media screen and (max-height: 600px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

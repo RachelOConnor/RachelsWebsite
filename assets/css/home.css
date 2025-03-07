@@ -1,0 +1,27 @@
+
+
+#pfp
+{
+    width: 250px;
+    border-radius: 20px;
+    margin: 0 0 0 15px;
+    float: right;
+}
+
+.about
+{
+    min-height: 400px;
+}
+
+
+
+
+
+
+/* ! ********************************************** MOBILE ONLY ************************************************** */
+
+@media screen and (max-height: 600px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
