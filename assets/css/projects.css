@@ -1,0 +1,71 @@
+
+
+.project-section
+{
+    display: grid;
+    grid-template-areas:
+    'text picture'
+    'text picture';
+
+    margin: 3% 5% 3% 5%;
+    align-items: center;
+}
+
+.text
+{
+    grid-area: text;
+    padding-right: 10%;
+}
+
+.picture
+{
+    grid-area: picture;
+}
+
+.projects-pic
+{
+    max-height: 350px;
+    max-width: 700px;
+
+    margin-top: 7%;
+}
+
+.project-links
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+
+    background-color: plum;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px  #000000;
+
+    /* top right bottom left*/
+    padding: 8px 5px 8px 5px;
+}
+
+.project-links:active
+{
+    background-color: rgb(192, 108, 192);
+    box-shadow: 2px 2px #000;
+    transform: translateY(3px);
+}
+
+
+/* ! ********************************************** MOBILE ONLY ************************************************** */
+
+
+
+@media screen and (max-height: 600px) 
+{
+    .sidenav 
+    {
+        padding-top: 15px;
+    }
+
+    .sidenav a 
+    {
+        font-size: 18px;
+    }
+}

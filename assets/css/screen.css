@@ -1,4 +1,5 @@
 
+
 .comfortaa-font 
 {
     font-family: "Comfortaa", serif;
@@ -11,6 +12,9 @@ body
 {
     font-family: "Comfortaa", serif;
     background-color: #ffefe6;
+
+    opacity: 0;
+    transition: opacity .5s;
 }
 
 @keyframes fadeIn 
@@ -72,6 +76,7 @@ body
 
     #moon
     {
+        cursor: pointer;
         content:url("../icons/sun.png")
     }
 
@@ -140,6 +145,12 @@ body
     color: black;
 
     display: block;
+}
+
+#moon
+{
+    cursor: pointer;
+    content:url("../icons/moon.png")
 }
 
 #discord
@@ -222,6 +233,13 @@ h2
     border-top: 1px solid black;
 }
 
+.section-divider
+{
+    border: 1px solid rgb(0, 0, 0);
+
+    margin: 5% 5% 5% 5%;
+}
+
 .footer
 {
     padding-top: 20px;
@@ -236,6 +254,7 @@ h2
     margin-top: 22px;
     margin-left: 20px;
 }
+
 
 /* ! ********************************************** MOBILE ONLY ************************************************** */
 
