@@ -13,6 +13,47 @@
     min-height: 400px;
 }
 
+.achievements-section
+{
+    display: grid;
+    grid-template-areas:
+    'text picture'
+    'text picture';
+
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.text
+{
+    grid-area: text;
+    padding-right: 10%;
+}
+
+.picture
+{
+    grid-area: picture;
+}
+
+.achievements-pic
+{
+    max-height: 350px;
+    max-width: 700px;
+}
+
+.achievements-divider
+{
+    border: 1px solid rgb(0, 0, 0);
+
+    margin: 5% 5% 5% 5%;
+}
+
+
+
+
+
+
 
 
 
@@ -22,6 +63,13 @@
 
 @media screen and (max-height: 600px) 
 {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav 
+    {
+        padding-top: 15px;
+    }
+
+    .sidenav a 
+    {
+        font-size: 18px;
+    }
 }

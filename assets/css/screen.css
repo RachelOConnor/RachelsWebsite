@@ -13,9 +13,21 @@ body
     background-color: #ffefe6;
 }
 
-.darkMode
+@keyframes fadeIn 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fadeAnimation
+{
+    animation: fadeIn 1s;
+}
+
+.darkMode 
 {
     background-color: #000;
+
 
     .sidenav
     {
@@ -60,32 +72,32 @@ body
 
     #moon
     {
-        content:url("../img/sun.png")
+        content:url("../icons/sun.png")
     }
 
     #discord
     {
-        content:url("../img/whiteDiscord.png")
+        content:url("../icons/whiteDiscord.png")
     }
 
     #email
     {
-        content:url("../img/whiteEmail.png")
+        content:url("../icons/whiteEmail.png")
     }
 
     #linkedin
     {
-        content:url("../img/whiteLinkedin.png")
+        content:url("../icons/whiteLinkedin.png")
     }
 
     #github
     {
-        content:url("../img/whiteGithub.png")
+        content:url("../icons/whiteGithub.png")
     }
 
     #heart
     {
-        content:url("../img/whiteHeart.png");
+        content:url("../icons/whiteHeart.png");
     }
 
 }
@@ -104,11 +116,16 @@ body
     border-right: 1px solid black;
 
     text-align: center;
+
+    h1
+    {
+        margin-top: 10%;
+    }
 }
 
 .links
 {
-    margin-top: 70%;
+    margin-top: 40%;
 }
 
 
@@ -127,22 +144,22 @@ body
 
 #discord
 {
-    content:url("../img/blackDiscord.png")
+    content:url("../icons/blackDiscord.png")
 }
 
 #email
 {
-    content:url("../img/blackEmail.png")
+    content:url("../icons/blackEmail.png")
 }
 
 #linkedin
 {
-    content:url("../img/blackLinkedin.png")
+    content:url("../icons/blackLinkedin.png")
 }
 
 #github
 {
-    content:url("../img/blackGithub.png")
+    content:url("../icons/blackGithub.png")
 }
 
 .links a:hover 
@@ -190,8 +207,8 @@ body
     font-size: 1.4em;
 
     /* top right bottom left*/
-    padding: 0px 30px 10px 30px;
-    margin: 50px 50px 50px 450px;
+    padding: 0px 30px 30px 30px;
+    margin: 50px 100px 75px 500px;
 }
 
 h2
@@ -216,7 +233,7 @@ h2
 {
     height: 32px;
     width: 32px;
-    margin-top: 15px;
+    margin-top: 22px;
     margin-left: 20px;
 }
 
