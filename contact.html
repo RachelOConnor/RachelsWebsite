@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="stylesheet" href="assets/css/contact.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="sidenav">
+
+            <h1>Rachel O' Connor</h1>
+    
+            <div class="links">
+                <a onclick="transitionToPage('index.html')">Home</a>
+                <a onclick="transitionToPage('projects.html')">Projects</a>
+                <a onclick="transitionToPage('art.html')">Art</a>
+                <a>Contact</a>
+            </div>
+    
+            <div class="modeButton" onclick="changeMode()">
+                <img src="../Portfolio Website/assets/icons/moon.png" alt="symbol to change from light to dark mode and vice versa" id="moon">
+            </div>
+    
+            <div class="sidefooter">
+                <a href="http://discordapp.com/users/536636856822005800" target="_blank" id="discord">.</a>
+    
+                <a href="mailto:racheloconnor2003@gmail.com" target="_blank" id="email">.</a>
+    
+                <a href="https://www.linkedin.com/in/racheloc2003/" target="_blank" id="linkedin">.</a>
+    
+                <a href="https://github.com/RachelOConnor" target="_blank" id="github" alt="github link">.</a>
+            </div>
+            
+        </div>
+
+
+
+
+
+        <div class="form-container">
+            <form action="#" method="POST" class="form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="fullName" required />
+
+                <label for="email">Your Email Address</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+
+        <div class="divider"></div>
+
+        <div class="footer">
+            <h2>Rachel O' Connor</h2>
+            <img src="../Portfolio Website/assets/icons/blackHeart.png" alt="heart icon" id="heart">
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
