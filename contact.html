@@ -44,29 +44,37 @@
 
 
 
+    <div class="section">
 
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact">
 
-        <div class="form-container">
-            <form action="#" method="POST" class="form">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="fullName" required />
+                <div class="contact-title">
+                    <h2>Get in Touch!</h2>
+                    <hr>
+                </div>
 
-                <label for="email">Your Email Address</label>
-                <input type="email" id="email" name="email" required />
+                <input type="hidden" name="access_key" value="11e70a8f-f958-48e4-a964-ac314dd54733">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs"></textarea>
 
-                <label for="message">Your Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                <button type="submit">Send</button>
+                <button type="submit">Submit</button>
             </form>
+
+            <div class="contact-right">
+                <img src="assets/img/messages.png" alt="messages graphic">
+            </div>
         </div>
+
+    </div>
 
 
         <div class="divider"></div>
 
         <div class="footer">
             <h2>Rachel O' Connor</h2>
-            <img src="../Portfolio Website/assets/icons/blackHeart.png" alt="heart icon" id="heart">
+            <img src="../assets/icons/blackHeart.png" alt="heart icon" id="heart">
         </div>
 
         <script src="assets/js/script.js"></script>
