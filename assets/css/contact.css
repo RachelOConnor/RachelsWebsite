@@ -6,6 +6,44 @@
     box-shadow: none;
 }
 
+.darkMode
+{
+    .contact-title h2
+    {
+        color: white;
+    }
+
+    .contact-title hr
+    {
+        background-color: white;
+    }
+
+    .contact-inputs
+    {
+        border: 2px solid #bebebe;
+        box-shadow: 3px 3px  #bebebe;
+    }
+
+    .section
+    {
+        border: none;
+        box-shadow: none;
+    }
+
+    .contact button
+    {
+        background-color: rgb(192, 108, 192);
+        border: 1px solid #bebebe;
+        box-shadow: 4px 4px  #bebebe;
+        color: white;
+    }
+
+    .contact button:active
+    {
+        background-color: rgb(146, 66, 146);
+    }
+}
+
 .contact-container
 {
     display: flex;
@@ -16,11 +54,6 @@
 .contact-right
 {
     margin-left: 150px;
-}
-
-.contact-right img
-{
-    /* width: 80%; */
 }
 
 .contact
@@ -54,7 +87,7 @@
     outline: none;
     padding-left: 25px;
     color: #666;
-    border-radius: 50px;
+    border-radius: 20px;
 
     font-family: "Comfortaa", serif;
 }

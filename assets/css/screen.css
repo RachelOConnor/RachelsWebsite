@@ -255,6 +255,19 @@ h2
     margin-left: 20px;
 }
 
+@media (prefers-color-scheme: dark)
+{
+    #favicon32
+{
+    content:url("../icons/whiteHeart-32x32.png")
+}
+
+#favicon16
+{
+    content:url("../icons/whiteHeart-16x16.png")
+}
+}
+
 
 /* ! ********************************************** MOBILE ONLY ************************************************** */
 
