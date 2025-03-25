@@ -41,3 +41,13 @@ window.transitionToPage = function(href)
         window.location.href = href
     }, 500)
 }
+
+function openNav() {
+    document.getElementById("mobileNav").style.width = "100%";
+    document.body.classList.add("stop-scrolling");
+}
+
+function closeNav() {
+    document.getElementById("mobileNav").style.width = "0%";
+    document.body.classList.remove("stop-scrolling");
+}

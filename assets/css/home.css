@@ -51,26 +51,30 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 /* ! ********************************************** MOBILE ONLY ************************************************** */
 
-@media screen and (max-height: 600px) 
+@media screen and (max-width: 800px) 
 {
-    .sidenav 
+    .achievements-section
     {
-        padding-top: 15px;
+        display: block;
     }
 
-    .sidenav a 
+    .achievements-pic
     {
-        font-size: 18px;
+        max-width: 280px;
+        border-radius: 10px;
     }
+
+    #pfp
+    {
+        width: 150px;
+        border-radius: 20px;
+    }
+
+    .about
+    {
+        min-height: 400px;
+    }
+
 }

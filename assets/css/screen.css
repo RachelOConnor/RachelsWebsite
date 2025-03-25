@@ -127,6 +127,11 @@ body
         content:url("../icons/whiteHeart.svg");
     }
 
+    .overlay
+    {
+        background-color: black;
+        color: white;
+    }
 }
 
 .sidenav 
@@ -247,6 +252,8 @@ body
 .modeButton
 {
     padding-top: 15%;
+    width: 10%;
+    margin-left: 180px;
 }
 
 .sidefooter
@@ -266,7 +273,6 @@ body
 
 .sidefooter a
 {
-
     padding: 3%;
 }
 
@@ -309,10 +315,214 @@ h2
 }
 
 
+
 /* ! ********************************************** MOBILE ONLY ************************************************** */
 
-@media screen and (max-height: 600px) 
+.overlay 
 {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #ffefe6;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content 
+{
+    position: relative;
+    /* top: 10%; */
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a 
+{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 4vw;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay .closebtn 
+{
+    position: absolute;
+    right: 15px;
+    font-size: 50px;
+}
+
+.nav-grid
+{
+    visibility: hidden;
+    display: none;
+}
+
+#closeIcon
+{
+    margin-top: 15px;
+    scale: 1.3;
+    content:url("../icons/xBlack.svg")
+}
+
+.stop-scrolling
+{
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 800px) 
+{
+
+    .darkMode
+    {
+
+        .links a
+        {
+            border: 1px solid #bebebe;
+            box-shadow: 5px 5px  #bebebe;
+            background-color: #ff7d7d;
+            color: white;
+        }
+    
+        .links a:active
+        {
+            background-color: #ff6464;
+            box-shadow: 2px 2px #bebebe;
+        }
+
+        .nav-grid
+        {
+            color: white;
+            background-color: black;
+            border-bottom: 2px solid white;
+        }
+
+        #closeIcon
+        {
+            content:url("../icons/xWhite.svg")
+        }
+    
+    }
+
+    .sidenav
+    {
+        visibility: hidden;
+        display: none;
+    }
+
+    .overlay
+    {
+        visibility: visible;
+        max-width: 100%;
+    }
+
+    .section
+    {
+        margin-top: 2%;
+        margin-bottom: 10%;
+        margin-left: 5px;
+        width: 80%;
+        font-size: 1em;
+    }
+
+    .nav-grid
+    {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        visibility: visible;
+
+
+        position: fixed;
+        background-color: #ffefe6;
+        width: 100%;
+        border-bottom: 2px solid black;
+
+        padding-left: 22px;
+        padding-top: 10px;
+        margin-top: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .about
+    {
+        margin-top: 100px;
+    }
+
+    #hamburger
+    {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #moon
+    {
+        transition: transform .2s;
+        scale: 1.3;
+    }
+
+    #moon:hover
+    {
+        transform: scale(1.5);
+    }
+
+
+    .sidefooter a
+    {
+        padding: 3%;
+        scale: 1.3;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .sidefooter{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        margin-top: 20%;
+
+        a
+        {
+            transition: transform .2s;
+        }
+    
+        a:hover
+        {
+            transform: scale(1.5);
+        }
+    }
+
+    .footer
+    {
+        text-align: center;
+        margin-left:0;
+        justify-content: center;
+    }
+
+    .links a
+    {
+        background-color: #FFB0B0;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        margin-left: 30%;
+        margin-right: 30%;
+        /* top right bottom left*/
+        padding: 13px 0px 13px 0px;
+
+        box-shadow: 5px 5px  #000000;
+    }
+
+    .modeButton
+    {
+        padding-top: 15%;
+        width: 10%;
+        margin-left: 185px;
+    }
+
 }
