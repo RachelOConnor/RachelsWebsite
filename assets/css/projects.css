@@ -1,4 +1,22 @@
 
+.darkMode
+{
+    .project-links
+    {
+        background-color: #ff7d7d;
+        color: white;
+    }
+
+    .project-links:hover
+    {
+        background-color: #ff6464;
+    }
+
+    .project-links:active
+    {
+        background-color: #ff6464;
+    }
+}
 
 .project-section
 {
@@ -28,6 +46,7 @@
     max-width: 700px;
 
     margin-top: 7%;
+    border-radius: 20px;
 }
 
 .project-links
@@ -36,7 +55,7 @@
     font-weight: bolder;
     color: black;
 
-    background-color: plum;
+    background-color: #FFB0B0;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 4px 4px  #000000;
@@ -47,7 +66,7 @@
 
 .project-links:active
 {
-    background-color: rgb(192, 108, 192);
+    background-color: #ff9191;
     box-shadow: 2px 2px #000;
     transform: translateY(3px);
 }

@@ -1,4 +1,26 @@
 
+::-webkit-scrollbar 
+{
+    width: 60px;
+}
+
+::-webkit-scrollbar-track 
+{
+    background: linear-gradient(to right, transparent 0, transparent 45%, #22222259 45%, #22222259 55%, transparent 55%, transparent 100%);
+    background-size: 6px;
+}
+
+::-webkit-scrollbar-thumb 
+{
+    background: url('/assets/icons/heartScroll.svg') no-repeat center;
+    background-size: 50px 50px;
+    cursor: pointer;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
 
 .comfortaa-font 
 {
@@ -49,12 +71,12 @@ body
     {
         border: 1px solid #bebebe;
         box-shadow: 5px 5px  #bebebe;
-        background-color: rgb(192, 108, 192);
+        background-color: #ff7d7d;
     }
 
     .links a:active
     {
-        background-color: rgb(146, 66, 146);
+        background-color: #ff6464;
         box-shadow: 2px 2px #bebebe;
     }
 
@@ -77,32 +99,32 @@ body
     #moon
     {
         cursor: pointer;
-        content:url("../icons/sun.png")
+        content:url("../icons/sun.svg")
     }
 
     #discord
     {
-        content:url("../icons/whiteDiscord.png")
+        content:url("../icons/whiteDiscord.svg")
     }
 
     #email
     {
-        content:url("../icons/whiteEmail.png")
+        content:url("../icons/whiteEmail.svg")
     }
 
     #linkedin
     {
-        content:url("../icons/whiteLinkedin.png")
+        content:url("../icons/whiteLinkedin.svg")
     }
 
     #github
     {
-        content:url("../icons/whiteGithub.png")
+        content:url("../icons/whiteGithub.svg")
     }
 
     #heart
     {
-        content:url("../icons/whiteHeart.png");
+        content:url("../icons/whiteHeart.svg");
     }
 
 }
@@ -150,32 +172,61 @@ body
 #moon
 {
     cursor: pointer;
-    content:url("../icons/moon.png")
+    content:url("../icons/moon.svg")
 }
 
 #discord
 {
-    content:url("../icons/blackDiscord.png")
+    content:url("../icons/blackDiscord.svg")
 }
 
 #email
 {
-    content:url("../icons/blackEmail.png")
+    content:url("../icons/blackEmail.svg")
 }
 
 #linkedin
 {
-    content:url("../icons/blackLinkedin.png")
+    content:url("../icons/blackLinkedin.svg")
 }
 
 #github
 {
-    content:url("../icons/blackGithub.png")
+    content:url("../icons/blackGithub.svg")
+}
+
+#heart
+{
+    content:url("../icons/blackHeart.svg")
+}
+
+#heart
+{
+    height: 32px;
+    width: 32px;
+    margin-top: 22px;
+    margin-left: 20px;
+    transition: transform .2s;
+}
+
+#heart:hover
+{
+    transform: scale(1.3);
+}
+
+#moon
+{
+    transition: transform .2s;
+}
+
+#moon:hover
+{
+    transform: scale(1.3);
 }
 
 .links a:hover 
 {
-    background-color: plum;
+    background-color: #FFB0B0;
     border: 1px solid black;
     border-radius: 10px;
     margin-left: 30%;
@@ -188,7 +239,7 @@ body
 
 .links a:active
 {
-    background-color: rgb(192, 108, 192);
+    background-color: #ff9191;
     box-shadow: 2px 2px #000;
     transform: translateY(3px);
 }
@@ -201,6 +252,16 @@ body
 .sidefooter
 {
     margin-top: 50%;
+
+    a
+    {
+        transition: transform .2s;
+    }
+
+    a:hover
+    {
+        transform: scale(1.3);
+    }
 }
 
 .sidefooter a
@@ -245,27 +306,6 @@ h2
     padding-top: 20px;
     margin-left:450px;
     display: flex;
-}
-
-#heart
-{
-    height: 32px;
-    width: 32px;
-    margin-top: 22px;
-    margin-left: 20px;
-}
-
-@media (prefers-color-scheme: dark)
-{
-    #favicon32
-{
-    content:url("../icons/whiteHeart-32x32.png")
-}
-
-#favicon16
-{
-    content:url("../icons/whiteHeart-16x16.png")
-}
 }
 
 
