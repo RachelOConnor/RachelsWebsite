@@ -78,3 +78,27 @@
     }
 
 }
+
+
+/* ! ********************************************** TABLET ONLY ************************************************** */
+
+@media screen and (min-width: 800px) and (max-width: 1800px)
+{
+    
+    #pfp
+    {
+        max-width: 200px;
+    }
+
+    .achievements-section
+    {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .achievements-pic
+    {
+        width: 46vw;
+    }
+}

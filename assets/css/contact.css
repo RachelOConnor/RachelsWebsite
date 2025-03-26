@@ -133,3 +133,111 @@
     box-shadow: 2px 2px #000;
     transform: translateY(3px);
 }
+
+
+/* ! ********************************************** MOBILE ONLY ************************************************** */
+
+.mobilePic
+{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .one
+    {
+        margin-top: 100px;
+    }
+
+    .contact-container
+    {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contact-right img
+    {
+        max-width: 200px;
+    }
+
+    .contact-right
+    {
+        visibility: hidden;
+        display: none;
+    }
+
+    .mobilePic
+    {
+        visibility: visible;
+        display: flex;
+    }
+
+    .mobilePic img
+    {
+        max-width: 100px;
+        height: auto;
+
+        margin-left: 35px;
+    }
+
+    .contact-inputs
+    {
+        width: 300px;
+        height: 50px;
+    }
+
+    .contact-title
+    {
+        display: flex;
+    }
+
+    .contact-title hr 
+    {
+        width: 200px;
+    }
+
+    .contact button 
+    {
+        padding: 15px 50px;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+}
+
+/* ! ********************************************** TABLET ONLY ************************************************** */
+
+@media screen and (min-width: 800px) and (max-width: 1100px)
+{
+
+    .contact-container
+    {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contact-right
+    {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .contact-title
+    {
+        display: flex;
+    }
+
+    .mobilePic
+    {
+        visibility: visible;
+        display: flex;
+    }
+
+    .mobilePic img
+    {
+        max-width: 120px;
+        height: auto;
+
+        margin-left: 35px;
+    }
+}

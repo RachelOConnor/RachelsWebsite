@@ -76,15 +76,39 @@
 
 
 
-@media screen and (max-height: 600px) 
+@media screen and (max-width: 800px) 
 {
-    .sidenav 
+    .one
     {
-        padding-top: 15px;
+        margin-top: 100px;
     }
 
-    .sidenav a 
+    .project-section
     {
-        font-size: 18px;
+        display: block;
     }
+
+    .projects-pic
+    {
+        max-width: 290px;
+    }
+}
+
+
+/* ! ********************************************** TABLET ONLY ************************************************** */
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px)
+{
+    .project-section
+    {
+        display: block;
+    }
+
+    .projects-pic
+    {
+        max-width: 42vw;
+    }
+
+
 }

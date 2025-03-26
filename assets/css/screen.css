@@ -335,7 +335,6 @@ h2
 .overlay-content 
 {
     position: relative;
-    /* top: 10%; */
     width: 100%;
     text-align: center;
 }
@@ -375,7 +374,7 @@ h2
     overflow-y: hidden;
 }
 
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 700px) 
 {
 
     .darkMode
@@ -442,11 +441,13 @@ h2
         width: 100%;
         border-bottom: 2px solid black;
 
-        padding-left: 22px;
-        padding-top: 10px;
+        padding-left: 5%;
+        padding-top: 2%;
         margin-top: 0;
         top: 0;
         left: 0;
+
+        font-size: clamp(3vw, 4vw, 4vw);
     }
 
     .about
@@ -456,8 +457,8 @@ h2
 
     #hamburger
     {
-        margin-left: 40px;
-        margin-top: 20px;
+        margin-left: 8vw;
+        margin-top: 5.3vw;
     }
 
     #moon
@@ -480,7 +481,8 @@ h2
         padding-right: 5%;
     }
 
-    .sidefooter{
+    .sidefooter
+    {
         display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
@@ -523,6 +525,147 @@ h2
         padding-top: 15%;
         width: 10%;
         margin-left: 185px;
+    }
+
+}
+
+
+/* ! ********************************************** TABLET ONLY ************************************************** */
+
+
+@media screen and (min-width: 800px) and (max-width: 1100px)
+{
+
+    .darkMode
+    {
+
+        .links a
+        {
+            border: 1px solid #bebebe;
+            box-shadow: 5px 5px  #bebebe;
+            background-color: #ff7d7d;
+            color: white;
+        }
+    
+        .links a:active
+        {
+            background-color: #ff6464;
+            box-shadow: 2px 2px #bebebe;
+        }
+    
+    }
+
+    .sidenav
+    {
+        max-width: 300px;
+    }
+
+    .sidenav h1
+    {
+        font-size: 1.8em;
+    }
+
+    .section 
+    {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 5px 5px  #000000;
+        font-size: 1.4em;
+    
+        /* top right bottom left*/
+        padding: 0px 30px 30px 30px;
+        margin: 50px 0px 75px 310px;
+
+    }
+
+
+    #moon
+    {
+        transition: transform .2s;
+        scale: 1.3;
+    }
+
+    #moon:hover
+    {
+        transform: scale(1.5);
+    }
+
+    .links
+    {
+        margin-top: 50%;
+    }
+
+    .links a
+    {
+        background-color: #FFB0B0;
+        border: 1px solid black;
+        border-radius: 10px;
+        color: black;
+        margin-left: 20%;
+        margin-right: 20%;
+        box-shadow: 5px 5px  #000000;
+
+        /* top right bottom left*/
+        padding: 13px 0px 13px 0px;
+    }
+
+    .links a:active
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+
+        /* top right bottom left*/
+        padding: 13px 0px 13px 0px;
+    }
+
+    .modeButton
+    {
+        width: 10%;
+        margin-left: 140px;
+        margin-top: 10%;
+    }
+
+    .sidefooter a
+    {
+        padding: 3%;
+        scale: 1.3;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .sidefooter
+    {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        margin-top: 60%;
+
+        a
+        {
+            transition: transform .2s;
+        }
+    
+        a:hover
+        {
+            transform: scale(1.5);
+        }
+    }
+
+        ::-webkit-scrollbar 
+    {
+        width: 50px;
+    }
+
+    ::-webkit-scrollbar-track 
+    {
+        background-size: 2px;
+    }
+
+    .footer
+    {
+        width: 45%;
+        margin-left: 320px;
     }
 
 }
