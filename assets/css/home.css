@@ -11,6 +11,8 @@
 .about
 {
     min-height: 400px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .achievements-section
@@ -102,3 +104,14 @@
         width: 46vw;
     }
 }
+
+
+/* ! ********************************************** LARGE MONITORS ONLY ************************************************** */
+
+
+@media screen and (min-width: 2700px)
+{
+
+    
+}
+

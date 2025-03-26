@@ -669,3 +669,18 @@ h2
     }
 
 }
+
+
+/* ! ********************************************** LARGE MONITORS ONLY ************************************************** */
+
+
+@media screen and (min-width: 2700px)
+{
+    .section
+    {
+        /* top right bottom left*/
+        padding: 0px 0px 30px 0px;
+        margin: 50px 150px 75px 550px;
+    }
+    
+}
