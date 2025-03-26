@@ -112,3 +112,21 @@
 
 
 }
+
+/* ! ********************************************** WEIRD IN BETWEEN SIZE ONLY ************************************************** */
+
+
+@media screen and (min-width: 1100px) and (max-width: 1700px)
+{
+    .project-section
+    {
+        display: block;
+    }
+
+    .projects-pic
+    {
+        max-width: 42vw;
+    }
+
+
+}
