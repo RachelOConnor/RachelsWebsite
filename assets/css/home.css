@@ -103,7 +103,8 @@
 
     .achievements-pic
     {
-        width: 46vw;
+        max-width: 46vw;
+        height: auto;
     }
 }
 

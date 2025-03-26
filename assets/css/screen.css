@@ -12,7 +12,7 @@
 
 ::-webkit-scrollbar-thumb 
 {
-    background: url('/assets/icons/heartScroll.svg') no-repeat center;
+    background: url('assets/icons/heartScroll.svg') no-repeat center;
     background-size: 50px 50px;
     cursor: pointer;
 }
@@ -375,7 +375,7 @@ h2
     overflow-y: hidden;
 }
 
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 800px) 
 {
 
     .darkMode
@@ -534,7 +534,7 @@ h2
 /* ! ********************************************** TABLET ONLY ************************************************** */
 
 
-@media screen and (min-width: 800px) and (max-width: 1100px)
+@media screen and (min-width: 800px) and (max-width: 1300px)
 {
 
     .darkMode
