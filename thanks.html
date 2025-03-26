@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thanks!</title>
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" href="assets/icons/favicon-96x96.png" sizes="96x96">
+
+        <link rel="stylesheet" href="assets/css/screen.css">
+        <link rel="stylesheet" href="assets/css/thanks.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+
+
+
+    <body>
+
+    <div class="sidenav">
+
+        <h1>Rachel O' Connor</h1>
+
+        <div class="links">
+            <a onclick="transitionToPage('index.html')">Home</a>
+            <a onclick="transitionToPage('projects.html')">Projects</a>
+            <a onclick="transitionToPage('art.html')">Art</a>
+            <a onclick="transitionToPage('contact.html')">Contact</a>
+        </div>
+
+        <div class="modeButton" onclick="changeMode()">
+            <img src="/assets/icons/moon.svg" alt="symbol to change from light to dark mode and vice versa" id="moon">
+        </div>
+
+        <div class="sidefooter">
+            <a href="http://discordapp.com/users/536636856822005800" target="_blank" id="discord">.</a>
+
+            <a href="mailto:racheloconnor2003@gmail.com" target="_blank" id="email">.</a>
+
+            <a href="https://www.linkedin.com/in/racheloc2003/" target="_blank" id="linkedin">.</a>
+
+            <a href="https://github.com/RachelOConnor" target="_blank" id="github" alt="github link">.</a>
+        </div>
+        
+    </div>
+
+
+        <!-- ! MOBILE NAVIGATION -->
+
+        <div id="mobileNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="closeIcon">.</a>
+            <div class="overlay-content">
+                <div class="links">
+                    <a onclick="transitionToPage('index.html')">Home</a>
+                    <a onclick="transitionToPage('projects.html')">Projects</a>
+                    <a onclick="transitionToPage('art.html')">Art</a>
+                    <a onclick="transitionToPage('contact.html')">Contact</a>
+                </div>
+    
+                <div class="modeButton" onclick="changeMode()">
+                    <img src="/assets/icons/moon.svg" alt="symbol to change from light to dark mode and vice versa" id="moon">
+                </div>
+    
+                <div class="sidefooter">
+    
+                    <a href="http://discordapp.com/users/536636856822005800" target="_blank" id="discord">.</a>
+    
+                    <a href="mailto:racheloconnor2003@gmail.com" target="_blank" id="email">.</a>
+        
+                    <a href="https://www.linkedin.com/in/racheloc2003/" target="_blank" id="linkedin">.</a>
+        
+                    <a href="https://github.com/RachelOConnor" target="_blank" id="github" alt="github link">.</a>
+    
+                </div>
+    
+            </div>
+        </div>
+    
+    
+    
+        <div class="nav-grid">
+            <div class="nav">
+                <h1>Rachel O' Connor</h1>
+            </div>
+    
+            <div class="nav">
+                <p id="hamburger" onclick="openNav()"><img src="assets/icons/burger.svg" alt="Hamburger icon"></p>
+            </div>
+        </div>
+    
+        <!-- ! MOBILE NAVIGATION -->
+
+
+
+        <div class="thanks-container">
+            
+            <div class="mobilePic left">
+                <img src="assets/img/messages.png" alt="messages graphic">
+            </div>
+
+                <div class="thanks-title">
+                    <div>
+                        <h1>Thanks!</h1>
+                        <h3>Your message has been sent.</h3>
+                        <button onclick="transitionToPage('contact.html')">Back</button>
+                    </div>
+
+                    <div class="mobilePic right">
+                        <img src="assets/img/messages.png" alt="messages graphic">
+                    </div>
+                </div>
+
+
+            <div class="thanks-right">
+                <img src="assets/img/messages.png" alt="messages graphic">
+            </div>
+
+        </div>
+
+
+        <div class="divider"></div>
+
+        <div class="footer">
+            <h2>Rachel O' Connor</h2>
+            <a id="heart"></a>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

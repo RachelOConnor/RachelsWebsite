@@ -127,6 +127,11 @@
     cursor: pointer;
 }
 
+.contact button:hover
+{
+    background-color: #ff9191;
+}
+
 .contact button:active
 {
     background-color: #ff9191;
