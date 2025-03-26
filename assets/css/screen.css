@@ -337,7 +337,7 @@ h2
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 
 .overlay a 
@@ -487,7 +487,7 @@ h2
         display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        margin-top: 15%;
+        margin-top: 20%;
 
         a
         {
@@ -516,14 +516,14 @@ h2
 
         /* top right bottom left*/
         padding: 15px 0px 15px 0px;
-        margin: 35px 30% 35px 30%;
+        margin: 40px 30% 40px 30%;
 
         box-shadow: 5px 5px  #000000;
     }
 
     .modeButton
     {
-        padding-top: 9%;
+        padding-top: 10%;
         width: 10%;
         margin-left: 185px;
     }
