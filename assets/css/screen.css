@@ -200,6 +200,11 @@ body
     content:url("../icons/blackGithub.svg")
 }
 
+#pfp
+{
+    content:url("../img/pfp.jpg")
+}
+
 #heart
 {
     content:url("../icons/blackHeart.svg")
