@@ -337,7 +337,7 @@ h2
     position: relative;
     width: 100%;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -60px;
 }
 
 .overlay a 
@@ -516,7 +516,7 @@ h2
 
         /* top right bottom left*/
         padding: 13px 0px 13px 0px;
-        margin: 40px 30% 40px 30%;
+        margin: 33px 30% 33px 30%;
 
         box-shadow: 5px 5px  #000000;
     }
