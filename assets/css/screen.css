@@ -6,8 +6,8 @@
 
 ::-webkit-scrollbar-track 
 {
-    background: linear-gradient(to right, transparent 0, transparent 45%, #22222259 45%, #22222259 55%, transparent 55%, transparent 100%);
-    background-size: 6px;
+    background: linear-gradient(to right, transparent 0, transparent 45%, #22222200 45%, #22222200 55%, transparent 55%, transparent 100%);
+    background-size: 2px;
 }
 
 ::-webkit-scrollbar-thumb 
@@ -148,6 +148,7 @@ body
     border-right: 1px solid black;
 
     text-align: center;
+    overflow: hidden;
 
     h1
     {
@@ -487,7 +488,7 @@ h2
         display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        margin-top: 15%;
+        margin-top: 10vh;
 
         a
         {
@@ -507,6 +508,11 @@ h2
         justify-content: center;
     }
 
+    .links
+    {
+        margin-top: 20vh;
+    }
+
     .links a
     {
         background-color: #FFB0B0;
@@ -523,9 +529,8 @@ h2
 
     .modeButton
     {
-        padding-top: 8%;
         width: 10%;
-        margin-left: 185px;
+        margin-left: 45vw;
     }
 
 }
@@ -577,7 +582,6 @@ h2
         /* top right bottom left*/
         padding: 0px 30px 30px 30px;
         margin: 50px 0px 75px 310px;
-
     }
 
 
@@ -594,7 +598,7 @@ h2
 
     .links
     {
-        margin-top: 50%;
+        margin-top: 10vh;
     }
 
     .links a
@@ -640,7 +644,7 @@ h2
         display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         justify-content: center;
-        margin-top: 60%;
+        margin-top: 10vh;
 
         a
         {
@@ -660,13 +664,18 @@ h2
 
     ::-webkit-scrollbar-track 
     {
-        background-size: 2px;
+        background-size: 3px;
     }
 
     .footer
     {
         width: 45%;
         margin-left: 320px;
+    }
+
+    .sidenav
+    {
+        overflow: hidden;
     }
 
 }
@@ -684,4 +693,9 @@ h2
         margin: 50px 150px 75px 550px;
     }
     
+    ::-webkit-scrollbar-track 
+    {
+        background-size: 2px;
+    }
+
 }
