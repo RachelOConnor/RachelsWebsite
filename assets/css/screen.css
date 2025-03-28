@@ -699,3 +699,22 @@ h2
     }
 
 }
+
+
+@media screen and (min-height: 700px) and (min-width: 1300px) 
+{
+    .links
+    {
+        margin-top: 9vh;
+    }
+
+    .sidefooter
+    {
+        margin-top: 9vh;
+    }
+
+    .modeButton
+    {
+        margin-top: -5%;
+    }
+}
