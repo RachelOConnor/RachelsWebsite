@@ -36,6 +36,7 @@
 .picture
 {
     grid-area: picture;
+    justify-self: center;
 }
 
 .achievements-pic
