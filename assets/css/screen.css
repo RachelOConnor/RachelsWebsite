@@ -69,15 +69,15 @@ body
 
     .links a:hover 
     {
-        border: 1px solid #bebebe;
-        box-shadow: 5px 5px  #bebebe;
+        border: 1px solid #d34141;
+        box-shadow: 5px 5px  #d34141;
         background-color: #ff7d7d;
     }
 
     .links a:active
     {
         background-color: #ff6464;
-        box-shadow: 2px 2px #bebebe;
+        box-shadow: 2px 2px #d34141;
     }
 
     .divider
@@ -125,6 +125,11 @@ body
     #heart
     {
         content:url("../icons/whiteHeart.svg");
+    }
+
+    #itch
+    {
+        content:url("../icons/whiteItch.svg");
     }
 
     .overlay
@@ -204,6 +209,11 @@ body
 #heart
 {
     content:url("../icons/blackHeart.svg")
+}
+
+#itch
+{
+    content:url("../icons/blackItch.svg")
 }
 
 #heart
@@ -384,8 +394,8 @@ h2
 
         .links a
         {
-            border: 1px solid #bebebe;
-            box-shadow: 5px 5px  #bebebe;
+            border: 1px solid #d34141;
+            box-shadow: 5px 5px  #d34141;
             background-color: #ff7d7d;
             color: white;
         }
@@ -393,7 +403,7 @@ h2
         .links a:active
         {
             background-color: #ff6464;
-            box-shadow: 2px 2px #bebebe;
+            box-shadow: 2px 2px #d34141;
         }
 
         .nav-grid
@@ -548,8 +558,8 @@ h2
 
         .links a
         {
-            border: 1px solid #bebebe;
-            box-shadow: 5px 5px  #bebebe;
+            border: 1px solid #d34141;
+            box-shadow: 5px 5px  #d34141;
             background-color: #ff7d7d;
             color: white;
         }
@@ -557,7 +567,7 @@ h2
         .links a:active
         {
             background-color: #ff6464;
-            box-shadow: 2px 2px #bebebe;
+            box-shadow: 2px 2px #d34141;
         }
     
     }

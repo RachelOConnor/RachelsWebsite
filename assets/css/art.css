@@ -4,8 +4,8 @@
     .btn
     {
         background-color: #ff7d7d;
-        border: 1px solid #bebebe;
-        box-shadow: 5px 5px  #bebebe;
+        border: 1px solid #000000;
+        box-shadow: 5px 5px  #000000;
         color: white;
     }
 
@@ -16,7 +16,18 @@
 
     .btn:active
     {
-        box-shadow: 2px 2px #bebebe;
+        box-shadow: 2px 2px #000000;
+    }
+
+    .backToTop
+    {
+        border: 1px solid #d34141;
+        box-shadow: 5px 5px #d34141;
+    }
+
+    .backToTop:active
+    {
+        box-shadow: 2px 2px #d34141;
     }
 }
 
