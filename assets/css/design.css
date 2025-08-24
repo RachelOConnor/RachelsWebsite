@@ -10,10 +10,21 @@
     align-items: center;
 }
 
+.design-section-long
+{
+    display: grid;
+    grid-template-areas: 
+    'text'
+    'picture';
+
+    margin: 3% 5% 3% 5%;
+    align-items: center;
+}
+
 .text
 {
     grid-area: text;
-    padding-right: 10%;
+    padding-right: 8%;
 }
 
 .picture
